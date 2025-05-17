@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>کتاب‌های چاپی - BookTopia</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+</head>
+
+<body>
+  <div class="site-wrapper">
+    <header class="main-header">
+      <div class="header-top-bar">
+        <div class="logo-container">
+          <a href="index.html" class="logo-link">
+            <img src="image/finall logo.png" alt="BookTopia" class="logo-img">
+          </a>
+        </div>
+        
+        <div class="search-cart-container">
+          <div class="search-box">
+            <input type="text" placeholder="جستجوی کتاب..." class="search-input">
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+          </div>
+          
+          <div class="user-actions">
+            <button class="user-btn">
+              <img src="image/user.png" alt="پنل کاربری" class="custom-icon">
+            </button>
+            <button class="cart-btn">
+              <img src="image/shop.png" alt="سبد خرید" class="custom-icon">
+              <span class="cart-counter">0</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+      <nav class="main-navigation">
+        <a href="index.html" class="nav-link"><i class="fas fa-home"></i> صفحه اصلی</a>
+        <a href="print-books.html" class="nav-link active"><i class="fas fa-book-open"></i> کتاب‌های چاپی</a>
+        <a href="ebooks.html" class="nav-link"><i class="fas fa-tablet-alt"></i> کتاب الکترونیکی</a>
+        <a href="audiobooks.html" class="nav-link"><i class="fas fa-headphones"></i> کتاب صوتی</a>
+      </nav>
+    </header>
+
+    <main class="content-area">
+      <section class="books-section">
+        <div class="section-header">
+          <h2 class="section-title">کتاب‌های چاپی</h2>
+          <div class="sort-filter">
+            <select class="sort-select">
+              <option value="popular">پرفروش‌ترین</option>
+              <option value="newest">جدیدترین</option>
+              <option value="price-low">قیمت (کم به زیاد)</option>
+              <option value="price-high">قیمت (زیاد به کم)</option>
+            </select>
+          </div>
+        </div>
+        
+        <div class="books-container">
+          <!-- book-1 -->
+          <div class="book-card printed-book-card">
+            <div class="book-badge">پرفروش</div>
+            <img src="images/book1-print.jpg" alt="هوش مصنوعی مدرن" class="book-cover">
+            <div class="book-details">
+              <h3 class="book-title">هوش مصنوعی مدرن</h3>
+              <p class="book-author">جان اسمیت</p>
+              <div class="book-meta">
+                <span><i class="fas fa-book"></i> 450 صفحه</span>
+                <span><i class="fas fa-calendar-alt"></i> 2023</span>
+              </div>
+              <div class="price-container">
+                <span class="original-price">300,000 تومان</span>
+                <span class="discounted-price">250,000 تومان</span>
+              </div>
+              <div class="book-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(42)</span>
+              </div>
+              <button class="add-to-cart-btn">افزودن به سبد خرید</button>
+            </div>
+          </div>
+
+          <!-- book-2 -->
+          <div class="book-card printed-book-card">
+            <div class="book-badge">جدید</div>
+            <img src="images/book2-print.jpg" alt="آموزش React پیشرفته" class="book-cover">
+            <div class="book-details">
+              <h3 class="book-title">آموزش React پیشرفته</h3>
+              <p class="book-author">سارا جاوید</p>
+              <div class="book-meta">
+                <span><i class="fas fa-book"></i> 320 صفحه</span>
+                <span><i class="fas fa-calendar-alt"></i> 2024</span>
+              </div>
+              <div class="price-container">
+                <span class="original-price">220,000 تومان</span>
+                <span class="discounted-price">180,000 تومان</span>
+              </div>
+              <div class="book-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>(28)</span>
+              </div>
+              <button class="add-to-cart-btn">افزودن به سبد خرید</button>
+            </div>
+          </div>
+
+          <!-- book-3 -->
+          <div class="book-card printed-book-card">
+            <img src="images/book3-print.jpg" alt="طراحی وب مدرن" class="book-cover">
+            <div class="book-details">
+              <h3 class="book-title">طراحی وب مدرن</h3>
+              <p class="book-author">محمد رضایی</p>
+              <div class="book-meta">
+                <span><i class="fas fa-book"></i> 380 صفحه</span>
+                <span><i class="fas fa-calendar-alt"></i> 2023</span>
+              </div>
+              <div class="price-container">
+                <span class="original-price">280,000 تومان</span>
+                <span class="discounted-price">230,000 تومان</span>
+              </div>
+              <div class="book-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(56)</span>
+              </div>
+              <button class="add-to-cart-btn">افزودن به سبد خرید</button>
+            </div>
+          </div>
+
+          
+          
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>درباره ما</h3>
+          <p>فروشگاه کتاب BookTopia با بیش از 10 سال سابقه در زمینه عرضه کتاب‌های چاپی و دیجیتال</p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>لینک‌های سریع</h3>
+          <ul>
+            <li><a href="#">قوانین و مقررات</a></li>
+            <li><a href="#">حریم خصوصی</a></li>
+            <li><a href="#">پرسش‌های متداول</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h3>تماس با ما</h3>
+          <p><i class="fas fa-phone"></i> 021-1234567</p>
+          <p><i class="fas fa-envelope"></i> info@booktopia.ir</p>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        <p>© 2025 کلیه حقوق برای BookTopia محفوظ است</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سبد خرید - BookTopia</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css ">
+  
+</head>
+<body>
+  <div class="site-wrapper">
+    <!-- Header -->
+    <header class="main-header">
+      <div class="header-top-bar">
+        <div class="logo-container">
+          <a href="index.html" class="logo-link">
+            <img src="image/finall logo.png" alt="BookTopia" class="logo-img">
+          </a>
+        </div>
+        <div class="search-cart-container">
+          <div class="search-box">
+            <input type="text" placeholder="جستجوی کتاب..." class="search-input">
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+          </div>
+          <div class="user-actions">
+            <button class="user-btn">
+              <img src="image/user.png" alt="پنل کاربری" class="custom-icon">
+            </button>
+            <button class="cart-btn active">
+              <img src="image/shop.png" alt="سبد خرید" class="custom-icon">
+              <span class="cart-counter">2</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <nav class="main-navigation">
+        <a href="index.html" class="nav-link"><i class="fas fa-home"></i> صفحه اصلی</a>
+        <a href="print-books.html" class="nav-link"><i class="fas fa-book-open"></i> کتاب‌های چاپی</a>
+        <a href="ebooks.html" class="nav-link"><i class="fas fa-tablet-alt"></i> کتاب الکترونیکی</a>
+        <a href="audiobooks.html" class="nav-link"><i class="fas fa-headphones"></i> کتاب صوتی</a>
+      </nav>
+    </header>
+
+    <!-- Shopping Cart -->
+    <main class="content-area">
+      <section class="cart-section">
+        <h2 class="section-title">سبد خرید شما</h2>
+        <div id="cart-items" class="cart-items">
+        <!-- empty shopping -->
+        <p>سبد خرید شما خالی است.</p>
+        </div>
+
+        <!-- Summary -->
+        <div class="cart-summary">
+          <h3>خلاصه سبد</h3>
+          <p>جمع کل: <strong id="total-price">0 تومان</strong></p>
+          <button class="btn-checkout" id="checkout-btn" disabled>ثبت سفارش</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>درباره ما</h3>
+          <p>فروشگاه کتاب BookTopia با بیش از 10 سال سابقه در زمینه عرضه کتاب‌های چاپی و دیجیتال</p>
+        </div>
+        <div class="footer-section">
+          <h3>لینک‌های سریع</h3>
+          <ul>
+            <li><a href="#">قوانین و مقررات</a></li>
+            <li><a href="#">حریم خصوصی</a></li>
+            <li><a href="#">پرسش‌های متداول</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>تماس با ما</h3>
+          <p><i class="fas fa-phone"></i> 021-1234567</p>
+          <p><i class="fas fa-envelope"></i> info@booktopia.ir</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2025 کلیه حقوق برای BookTopia محفوظ است</p>
+      </div>
+    </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

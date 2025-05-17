@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>پنل کاربری - BookTopia</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css ">
+  
+</head>
+<body>
+  <div class="site-wrapper">
+    <!-- Header -->
+    <header class="main-header">
+      <div class="header-top-bar">
+        <div class="logo-container">
+          <a href="index.html" class="logo-link">
+            <img src="image/finall logo.png" alt="BookTopia" class="logo-img">
+          </a>
+        </div>
+        <div class="search-cart-container">
+          <div class="search-box">
+            <input type="text" placeholder="جستجوی کتاب..." class="search-input">
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+          </div>
+          <div class="user-actions">
+            <button class="user-btn active">
+              <img src="image/user.png" alt="پنل کاربری" class="custom-icon">
+            </button>
+            <button class="cart-btn">
+              <img src="image/shop.png" alt="سبد خرید" class="custom-icon">
+              <span class="cart-counter">0</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <nav class="main-navigation">
+        <a href="index.html" class="nav-link"><i class="fas fa-home"></i> صفحه اصلی</a>
+        <a href="print-books.html" class="nav-link"><i class="fas fa-book-open"></i> کتاب‌های چاپی</a>
+        <a href="ebooks.html" class="nav-link"><i class="fas fa-tablet-alt"></i> کتاب الکترونیکی</a>
+        <a href="audiobooks.html" class="nav-link"><i class="fas fa-headphones"></i> کتاب صوتی</a>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content-area">
+      <section class="user-dashboard">
+        <h2 class="section-title">خوش آمدید، جان دو</h2>
+        <div class="dashboard-grid">
+          <!-- Account Info -->
+          <div class="dashboard-card">
+            <h3>اطلاعات حساب</h3>
+            <p><strong>نام:</strong> جان دو</p>
+            <p><strong>ایمیل:</strong> johndoe@example.com</p>
+            <p><strong>تاریخ عضویت:</strong> ۱۲ تیر ۱۴۰۳</p>
+            <button class="btn-primary">ویرایش اطلاعات</button>
+          </div>
+
+          <!-- Order History -->
+          <div class="dashboard-card">
+            <h3>تاریخچه سفارشات</h3>
+            <ul>
+              <li>سفارش #1001 - هوش مصنوعی مدرن - ۲۵۰,۰۰۰ تومان</li>
+              <li>سفارش #1002 - طراحی وب مدرن - ۲۳۰,۰۰۰ تومان</li>
+            </ul>
+            <button class="btn-primary">مشاهده همه سفارشات</button>
+          </div>
+
+          <!-- Wishlist -->
+          <div class="dashboard-card">
+            <h3>لیست علاقه‌مندی‌ها</h3>
+            <ul>
+              <li>آموزش React پیشرفته</li>
+              <li>هوش مصنوعی مدرن</li>
+            </ul>
+            <button class="btn-primary">مشاهده لیست</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>درباره ما</h3>
+          <p>فروشگاه کتاب BookTopia با بیش از 10 سال سابقه در زمینه عرضه کتاب‌های چاپی و دیجیتال</p>
+        </div>
+        <div class="footer-section">
+          <h3>لینک‌های سریع</h3>
+          <ul>
+            <li><a href="#">قوانین و مقررات</a></li>
+            <li><a href="#">حریم خصوصی</a></li>
+            <li><a href="#">پرسش‌های متداول</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>تماس با ما</h3>
+          <p><i class="fas fa-phone"></i> 021-1234567</p>
+          <p><i class="fas fa-envelope"></i> info@booktopia.ir</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2025 کلیه حقوق برای BookTopia محفوظ است</p>
+      </div>
+    </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
