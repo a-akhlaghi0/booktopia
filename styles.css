@@ -403,16 +403,15 @@ body {
     padding: 15px;
     gap: 15px;
   }
-
-  .search-cart-container {
-    display: flex;
-    flex-direction: column; /* تغییر چیدمان به سطری */
-    gap: 10px; /* فاصله بین عناصر */
-  }
-
+  
   .user-actions {
-    margin-top: 10px; /* فاصله اضافی برای جداسازی */
-  }
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 10px 0;
+    background: #fff;
+    border-top: 1px solid #eee;
+  } 
   
   .search-box {
     width: 100%;
